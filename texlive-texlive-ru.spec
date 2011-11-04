@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-texlive-ru
-Version:	20111103
+Version:	20111104
 Release:	1
 Summary:	TeX Live manual (Russian)
 Group:		Publishing
