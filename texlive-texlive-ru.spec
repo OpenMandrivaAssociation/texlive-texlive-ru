@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-ru.doc.ta
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 TeXLive texlive-ru package.
@@ -31,7 +29,6 @@ TeXLive texlive-ru package.
 %doc %{_texmfdir}/doc/texlive/texlive-ru/texlive-ru.html
 %doc %{_texmfdir}/doc/texlive/texlive-ru/texlive-ru.pdf
 %doc %{_texmfdir}/doc/texlive/texlive-ru/texlive-ru.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -42,5 +39,3 @@ TeXLive texlive-ru package.
 %install
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf %{buildroot}%{_datadir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
