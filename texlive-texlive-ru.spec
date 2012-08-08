@@ -1,11 +1,11 @@
-# revision 25923
+# revision 26661
 # category TLCore
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-texlive-ru
-Version:	20120611
+Version:	20120808
 Release:	1
 Summary:	TeX Live manual (Russian)
 Group:		Publishing
