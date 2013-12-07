@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-texlive-ru
 Version:	20131009
-Release:	2
+Release:	3
 Summary:	TeX Live manual (Russian)
 Group:		Publishing
 URL:		http://tug.org/texlive
