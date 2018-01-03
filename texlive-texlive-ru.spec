@@ -1,12 +1,6 @@
-# revision 34060
-# category TLCore
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-texlive-ru
-Version:	20140621
-Release:	4
+Version:	20170606
+Release:	1
 Summary:	TeX Live manual (Russian)
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -22,17 +16,7 @@ TeXLive texlive-ru package.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/texlive/texlive-ru/Makefile
-%doc %{_texmfdistdir}/doc/texlive/texlive-ru/live4ht.cfg
-%doc %{_texmfdistdir}/doc/texlive/texlive-ru/t2almdh.fd
-%doc %{_texmfdistdir}/doc/texlive/texlive-ru/t2almr.fd
-%doc %{_texmfdistdir}/doc/texlive/texlive-ru/t2almss.fd
-%doc %{_texmfdistdir}/doc/texlive/texlive-ru/t2almtt.fd
-%doc %{_texmfdistdir}/doc/texlive/texlive-ru/tex-live.css
-%doc %{_texmfdistdir}/doc/texlive/texlive-ru/texlive-ru.css
-%doc %{_texmfdistdir}/doc/texlive/texlive-ru/texlive-ru.html
-%doc %{_texmfdistdir}/doc/texlive/texlive-ru/texlive-ru.pdf
-%doc %{_texmfdistdir}/doc/texlive/texlive-ru/texlive-ru.tex
+%doc %{_texmfdistdir}/doc/texlive/texlive-ru
 
 #-----------------------------------------------------------------------
 %prep
