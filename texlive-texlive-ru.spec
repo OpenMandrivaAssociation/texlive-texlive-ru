@@ -1,5 +1,5 @@
 Name:		texlive-texlive-ru
-Version:	20170606
+Version:	20180409
 Release:	1
 Summary:	TeX Live manual (Russian)
 Group:		Publishing
