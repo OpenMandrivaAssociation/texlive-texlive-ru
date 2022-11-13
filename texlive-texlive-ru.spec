@@ -1,12 +1,12 @@
 Name:		texlive-texlive-ru
-Version:	20190331
+Version:	58426
 Release:	1
 Summary:	TeX Live manual (Russian)
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-ru.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-ru.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-ru.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-ru.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -20,7 +20,7 @@ TeXLive texlive-ru package.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
