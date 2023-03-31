@@ -1,6 +1,6 @@
 Name:		texlive-texlive-ru
 Version:	58426
-Release:	1
+Release:	2
 Summary:	TeX Live manual (Russian)
 Group:		Publishing
 URL:		http://tug.org/texlive
